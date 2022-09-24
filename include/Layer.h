@@ -7,7 +7,9 @@
 #include <cmath>
 #include <cassert>
 
-#define assertm(exp, msg) assert(((void)msg, exp))
+#include "../include/MathFunctions.h"
+
+
 
 class Layer
 {
@@ -24,3 +26,4 @@ private:
 	std::vector<double> m_outputs;
 	std::vector<double> m_inputs;
 };
+

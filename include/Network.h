@@ -12,6 +12,7 @@
 
 
 
+
 class Network
 {
 public:
@@ -26,3 +27,4 @@ private:
 	std::vector<double> m_outputs;
 
 };
+

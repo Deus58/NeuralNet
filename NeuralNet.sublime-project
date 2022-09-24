@@ -1,0 +1,27 @@
+{
+	"folders":
+	[
+		{
+		"path": "bin/..",
+	//	"file_exclude_patterns": ["*.sublime-project"]
+		}
+	],
+
+	"build_systems":
+	[
+		{
+			"name": "Build Debug",
+			"working_dir": "${project_path}",
+			"cmd": "g++ -c src/*.cpp -std=c++17 -Wall -g -m64 -I/include && g++ *.o -o bin/debug/main && ./bin/debug/main && rm *.o",
+			"selector": "source.c++",
+			"shell": true
+		},
+		{
+			"name": "Build Release",
+			"working_dir": "${project_path}",
+			"cmd": "g++ -c src/*.cpp -std=c++17 -Wall -O3 -m64 -I/include && g++ *.o -o bin/release/main -s && ./bin/release/main && rm *.o",
+			"selector": "source.c++",
+			"shell": true
+		}
+	]
+}

@@ -45,3 +45,8 @@ std::vector<double> Layer::getOutput() const
 {
 	return this->m_outputs; 
 }
+
+void Layer::backProp(const std::vector<double> targetValues)
+{
+	double mse = meanSquaredErrorVec(m_outputs, targetValues);
+}

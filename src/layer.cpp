@@ -41,12 +41,52 @@ void Layer::feedForward(std::vector<double> inputs)
 	}
 }
 
+void Layer::backProp(const std::vector<double> dvalues)
+{
+	/* 
+	what do I need?
+	matrix of gradients in the shape of the weights
+	vector of gradients in the shape of the biases
+
+	weights = weights - (dweights * 0.001(a fraction to limit the effect))
+	biases = biases - (dbiases * 0.001)
+
+	this process replaces the need for calculating for each weight bias neuron seperately 
+
+
+	*/
+
+
+
+	std::vector<double> drelu = DReLU(this->m_outputs);
+	std::vector<double> dsum = DSum(this->m_outputs);
+
+	std::vector<double> test;
+
+	for (int i = 0; i < this->m_weights.size(); i ++)
+	{
+		test.push_back(doubleVecSum(scalarTimesVector(dvalues[i], this -> m_weights[i])));
+
+	}
+	printDoubleVec(test);
+
+
+
+}
+
+
+
 std::vector<double> Layer::getOutput() const
 {
 	return this->m_outputs; 
 }
 
-void Layer::backProp(const std::vector<double> targetValues)
+std::vector<std::vector<double>> Layer::getWeights() const
 {
-	double mse = meanSquaredErrorVec(m_outputs, targetValues);
+	return this->m_weights;
 }
+
+
+
+
+

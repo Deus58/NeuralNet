@@ -1,1 +1,258 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"m_outputs"
+			],
+			[
+				"prin",
+				"printDoubleVec"
+			],
+			[
+				"d",
+				"doubleVectorAddition"
+			],
+			[
+				"pr",
+				"printDoubleVec"
+			],
+			[
+				"m_",
+				"m_layers"
+			],
+			[
+				"Vec",
+				"VectorTimesMatrix"
+			],
+			[
+				"R",
+				"ReLU"
+			],
+			[
+				"ac",
+				"activation"
+			],
+			[
+				"N",
+				"Neuron"
+			],
+			[
+				"inv",
+				"inv_json"
+			],
+			[
+				"mouseP",
+				"mousePositionView"
+			],
+			[
+				"ene",
+				"enemies"
+			],
+			[
+				"e",
+				"enemySpawnTimer"
+			],
+			[
+				"update",
+				"updateEnemies"
+			],
+			[
+				"re",
+				"renderEnemies"
+			],
+			[
+				"upd",
+				"updateMousePosition"
+			],
+			[
+				"init",
+				"initVariables"
+			],
+			[
+				"V",
+				"VideoMode"
+			],
+			[
+				"Re",
+				"RenderWindow"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"syntax: SQ",
+				"Set Syntax: SQL"
+			],
+			[
+				"syntax rus",
+				"Set Syntax: Rust"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"syntax: C++",
+				"Set Syntax: C++"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jonathans/Projects/NeuralNet/include/Network.h",
+		"/Users/jonathans/Projects/NeuralNet/include/Layer.h",
+		"/Users/jonathans/Projects/NeuralNet/src/mathFunctions.cpp",
+		"/Users/jonathans/Projects/NeuralNet/src/Network.cpp",
+		"/Users/jonathans/Projects/NeuralNet/src/layer.cpp",
+		"/Users/jonathans/Projects/NeuralNet/src/main.cpp",
+		"/Users/jonathans/Projects/NeuralNet/include/MathFunctions.h",
+		"/Users/jonathans/Projects/NeuralNet/NeuralNet.sublime-project",
+		"/Users/jonathans/Projects/NeuralNet/main.cpp",
+		"/Users/jonathans/Projects/carbon-lang/explorer/testdata/print/format_only.carbon",
+		"/Users/jonathans/Projects/first-sfml-game/include/Game.hpp",
+		"/Users/jonathans/Projects/first-sfml-game/src/main.cpp",
+		"/Users/jonathans/Projects/first-sfml-game/src/game.cpp",
+		"/Users/jonathans/Projects/first-sfml-game/first-sfml-game.sublime-project",
+		"/Users/jonathans/Projects/cpp_lib_testing/sfml/untitled.cpp",
+		"/Users/jonathans/Library/Application Support/Sublime Text/Packages/Default/exec.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Times",
+			"double",
+			"std"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 232.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Build Debug",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

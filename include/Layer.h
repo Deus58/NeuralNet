@@ -15,9 +15,10 @@ class Layer
 {
 public:
 	Layer(int size, int prevSize, std::string activation);
-	void backProp(const std::vector<double> targetValues);
+	void backProp(const std::vector<double> dvalues);
 	void feedForward(const std::vector<double> inputs);
 	std::vector<double> getOutput() const;
+	std::vector<std::vector<double>> getWeights() const;
 
 private:
 	std::vector<std::vector<double>> m_weights; // weight matrix
